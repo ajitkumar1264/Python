@@ -1,0 +1,12 @@
+import numpy as num
+arr1=num.array([1,2,3,4,5,6,7,8,9])
+newarr=num.array_split(arr1,4)
+print("Old array :")
+print(arr1)
+print("New array is :")
+print(newarr)
+print(newarr[0])
+print(newarr[1])
+arr2=num.array([[1,2,3],[4,5,6],[7,8,9],[10,11,12],[13,14,15],[16,17,18]])
+arr3=num.array_split(arr2,3,axis=1)
+print(arr3)

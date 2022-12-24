@@ -1,0 +1,11 @@
+import numpy as num
+k=num.array([5,4,3,2,1])
+m=num.array(["Apple","juice","Banana"])
+n=num.array([True,False,True])
+u=num.array([[3,2,1],[5,0,1]])
+j=num.sort(k)
+print("the original array is :",k)
+print("After the applying the sorted :",j)
+print(num.sort(m))
+print(num.sort(n))
+print(num.sort(u))
